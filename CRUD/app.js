@@ -1,3 +1,6 @@
+
+
+
 let listaEmpleados = [];
 
 const objEmpleado = {
@@ -137,50 +140,5 @@ function limpiarHTML() {
 
 
 
-
-
-function obtener_localstorage(){
-
-    if(localStorage.getItem("nombre"));{
-        
-
-    }
-
-  let nombre=localStorage.getItem("nombre");
-  let persona= JSON.parse (localStorage.getItem("persona"));
-
-  console.log(nombre);
-console.log(persona);
-  
-  
-}
-
-
-
-
-
-function guardar_localstorage(){
-
-let persona={
-nombre: "Pedro",
-edad: "23",
-correo:"pedro12@gmail.com",
-coords:{
-lat: 10,
-lng:-10,
-
-
-}
-
-
-}
-
-let nombre="renato";
-localStorage.setItem("nombre", JSON.stringify(persona));
-localStorage.setItem("nombre",nombre);
-
-
-
-}
 
 
