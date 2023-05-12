@@ -1,6 +1,6 @@
 
 
-
+//para empleados y para agencia
 let listaEmpleados = [];
 
 const objEmpleado = {
@@ -10,7 +10,7 @@ const objEmpleado = {
 }
 
 let editando = false;
-
+//servicios y presupuesto 
 const formulario = document.querySelector('#formulario');
 const nombreInput = document.querySelector('#servicio');
 const puestoInput = document.querySelector('#presupuesto');
