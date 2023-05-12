@@ -1,6 +1,6 @@
 
 
-//para empleados y para agencia
+//para empleados y para servicios
 let listaEmpleados = [];
 
 const objEmpleado = {
